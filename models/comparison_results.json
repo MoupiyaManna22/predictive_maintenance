@@ -1,0 +1,26 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.6953333333333334,
+    "macro_f1": 0.4415695310723236,
+    "weighted_f1": 0.8037954203676102,
+    "best_params": "{'clf__solver': 'lbfgs', 'clf__C': 10}"
+  },
+  "Decision Tree": {
+    "accuracy": 0.924,
+    "macro_f1": 0.56403405174303,
+    "weighted_f1": 0.9498447795163585,
+    "best_params": "{'clf__min_samples_leaf': 5, 'clf__max_depth': 15, 'clf__criterion': 'entropy'}"
+  },
+  "Random Forest": {
+    "accuracy": 0.958,
+    "macro_f1": 0.5773658777025285,
+    "weighted_f1": 0.9673613090164536,
+    "best_params": "{'clf__min_samples_leaf': 5, 'clf__max_features': 'sqrt', 'clf__max_depth': 20}"
+  },
+  "Gradient Boosting": {
+    "accuracy": 0.9793333333333333,
+    "macro_f1": 0.5888406157967493,
+    "weighted_f1": 0.9795127375136304,
+    "best_params": "{'clf__max_depth': 20, 'clf__learning_rate': 0.05, 'clf__l2_regularization': 0.5}"
+  }
+}
