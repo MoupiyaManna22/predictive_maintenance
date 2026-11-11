@@ -262,6 +262,23 @@ The model is tuned to **maximise recall on failure classes** using:
 - Retrain periodically with incoming sensor data (online learning).
 - Extend to multi-machine environments with individual model instances.
 
+
+## 🌐 Live Deployment
+
+The application is deployed and publicly accessible on **Streamlit Community Cloud**:
+
+👉 **[https://predictivemaintenance-kgttu8sbmnha9xrjn3e7me.streamlit.app](https://predictivemaintenance-kgttu8sbmnha9xrjn3e7me.streamlit.app)**
+
+### How to use the live app:
+1. Open the link above in any browser
+2. Select **Machine Type** (L / M / H)
+3. Adjust the sensor sliders (Air Temperature, Process Temperature, Rotational Speed, Torque, Tool Wear)
+4. Click **"Predict Machine Condition"**
+5. View the predicted failure type, confidence score, probability breakdown, and maintenance recommendations
+
+---
+
+
 ---
 
 ## 📜 License & Credits
